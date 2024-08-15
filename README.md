@@ -1,2 +1,15 @@
 # AND_GATE_iverilog_tool
-This repository features a fundamental AND gate implementation in Verilog using VS_CODE. It includes both the Verilog code and a testbench to validate its functionality. I’ve utilized Icarus Verilog (iverilog) for compiling and GTKWave for visualizing the simulation results. 
+//Compile the Verilog Code:
+iverilog -o out.vvp -s testbench testbench.v design.v
+
+//Run the Simulation:
+vvp out.vvp
+
+//View the Results:
+//Open the waveform file dump.vcd using GTKWave:
+gtkwave dump.vcd
+
+
+
+
+
