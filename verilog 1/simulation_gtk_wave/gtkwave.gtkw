@@ -1,0 +1,22 @@
+[*]
+[*] GTKWave Analyzer v3.3.108 (w)1999-2020 BSI
+[*] Thu Aug 15 10:14:57 2024
+[*]
+[dumpfile] "C:\Users\krush\Desktop\verilog 1\dump.vcd"
+[dumpfile_mtime] "Thu Aug 15 10:13:12 2024"
+[dumpfile_size] 409
+[savefile] "C:\Users\krush\Desktop\verilog 1\gtkwave.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*-6.964885 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 254
+[signals_width] 78
+[sst_expanded] 1
+[sst_vpaned_height] 156
+@28
+testbench.B
+testbench.A
+testbench.Y
+[pattern_trace] 1
+[pattern_trace] 0

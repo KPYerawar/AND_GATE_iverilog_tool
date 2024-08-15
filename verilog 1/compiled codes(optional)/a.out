@@ -1,0 +1,36 @@
+module testbench();
+   reg A, B;  // Fixed case sensitivity for B
+   wire Y;
+   
+   // Instantiate the DUT (Device Under Test)
+   gate dut (
+       .A(A),
+       .B(B),
+       .Y(Y)
+   );
+
+   // Testbench procedure
+   initial begin
+     A <= 1'b0;
+     B <= 1'b0;  // Fixed case sensitivity for B
+     #100;
+
+     A <= 1'b0;
+     B <= 1'b1;  // Fixed case sensitivity for B
+     #100;
+
+     A <= 1'b1;
+     B <= 1'b0;  // Fixed case sensitivity for B
+     #100;
+
+     A <= 1'b1;
+     B <= 1'b1;  // Fixed case sensitivity for B
+     #100;
+   end
+
+   // VCD Dump
+   initial begin
+      $dumpfile("dump.vcd");
+      $dumpvars(0);
+   end
+endmodule
